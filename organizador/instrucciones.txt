@@ -1,0 +1,27 @@
+﻿Instrucciones para usar las variables y parametrizar el soporte.
+
+Variables parametrizables tal y como aparecen en el archivo de openscad:
+
+altura_base = 1; // la altura de la base... parece lógico
+altura_marco = 2; // pues eso
+anchura_marco = 3;  // la separación entre los huecos
+size_cuadro_x = 15; // el tamaño de cada cuadro en el eje x
+size_cuadro_y = 20; // el tamaño en y
+cantidad_x = 5; //el número de cuadros en el eje x
+cantidad_y = 2; // el número de cuadros en el eje y
+
+altura_base, por defecto “1”, la altura de la capa inferior a lo largo de todo el organizador.
+
+altura_marco por defecto “2” , es la altura de la pared entre los agujeros.
+
+anchura_marco por defecto “3”, es la anchura de separación entre los huecos.
+
+size_cuadro_x la longitud del agujero, por defecto 15.
+
+size_cuadro_y la anchura del agujeros, poer defecto 20.
+
+cantidad_x:el número de cuadros en el eje x, por defecto 5.
+
+cantidad_y:el número de cuadros en el eje y, por defecto 2.
+
+DiegoLale, 30 de octubre de 2018.
